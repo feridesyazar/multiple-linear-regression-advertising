@@ -1,4 +1,4 @@
-# Multiple Linear Regression – Advertising Sales Prediction
+# 📺 Multiple Linear Regression – Advertising Sales Prediction
 
 ## Overview
 
@@ -31,33 +31,7 @@ This is a **regression problem**, where:
 ```python
 x = df[["TV", "Radio", "Newspaper"]]
 y = df["Sales"]
-```
 
----
-
-## Project Workflow
-
-```text
-Advertising Dataset
-        ↓
-Exploratory Data Analysis
-        ↓
-Correlation Analysis
-        ↓
-Feature and Target Selection
-        ↓
-Train-Test Split
-        ↓
-Multiple Linear Regression
-        ↓
-Regression Coefficients
-        ↓
-Model Evaluation
-        ↓
-Actual vs Predicted Sales
-        ↓
-Business Interpretation
-```
 
 ---
 
@@ -186,18 +160,6 @@ The analysis shows that:
 - Seaborn
 - Scikit-learn
 - Jupyter Notebook
-
----
-
-## Repository Structure
-
-```text
-multiple-linear-regression-advertising/
-│
-├── multiple_linear_regression.ipynb
-├── advertising.csv
-└── README.md
-```
 
 ---
 
