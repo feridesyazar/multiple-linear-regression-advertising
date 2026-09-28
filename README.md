@@ -31,7 +31,7 @@ This is a **regression problem**, where:
 ```python
 x = df[["TV", "Radio", "Newspaper"]]
 y = df["Sales"]
-
+```
 
 ---
 
